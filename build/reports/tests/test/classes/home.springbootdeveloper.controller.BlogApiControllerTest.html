@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - BlogApiControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>BlogApiControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/home.springbootdeveloper.controller.html">home.springbootdeveloper.controller</a> &gt; BlogApiControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.631s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">addArticle: 아티클 추가에 성공한다.</td>
+<td class="success">addArticle()</td>
+<td class="success">0.731s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteArticle: 아티클 삭제에 성공한다.</td>
+<td class="success">deleteArticle()</td>
+<td class="success">0.381s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findAllArticles: 아티클 목록 조회에 성공한다.</td>
+<td class="success">findAllArticles()</td>
+<td class="success">0.046s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findArticle: 아티클 단건 조회에 성공한다.</td>
+<td class="success">findArticle()</td>
+<td class="success">0.211s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateArticle: 아티클 수정에 성공한다.</td>
+<td class="success">updateArticle()</td>
+<td class="success">0.262s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2024-07-02T10:33:07.074+09:00  INFO 6140 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [home.springbootdeveloper.controller.BlogApiControllerTest]: BlogApiControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-07-02T10:33:07.077+09:00  INFO 6140 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration home.springbootdeveloper.SpringbootdeveloperApplication for test class home.springbootdeveloper.controller.BlogApiControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2024-07-02T10:33:07.124+09:00  INFO 6140 --- [    Test worker] h.s.controller.BlogApiControllerTest     : Starting BlogApiControllerTest using Java 17.0.11 with PID 6140 (started by EZEN in C:\kyung_a\myhomepage\springbootdeveloper)
+2024-07-02T10:33:07.124+09:00  INFO 6140 --- [    Test worker] h.s.controller.BlogApiControllerTest     : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-07-02T10:33:07.425+09:00  INFO 6140 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-02T10:33:07.456+09:00  INFO 6140 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
+2024-07-02T10:33:07.566+09:00  INFO 6140 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-07-02T10:33:07.566+09:00  INFO 6140 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:9e597a06-871f-43b5-bc79-8ad03ff3008e user=SA
+2024-07-02T10:33:07.566+09:00  INFO 6140 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-07-02T10:33:07.566+09:00  INFO 6140 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-02T10:33:07.581+09:00  INFO 6140 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-02T10:33:07.581+09:00  INFO 6140 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-02T10:33:07.644+09:00  INFO 6140 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    drop table if exists article cascade 
+Hibernate: 
+    drop table if exists refresh_token cascade 
+Hibernate: 
+    drop table if exists users cascade 
+Hibernate: 
+    create table article (
+        created_at timestamp(6),
+        id bigint generated by default as identity,
+        updated_at timestamp(6),
+        author varchar(255) not null,
+        content varchar(255) not null,
+        title varchar(255) not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table refresh_token (
+        id bigint generated by default as identity,
+        user_id bigint not null unique,
+        refresh_token varchar(255) not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table users (
+        id bigint generated by default as identity,
+        email varchar(255) not null unique,
+        nickname varchar(255) unique,
+        password varchar(255),
+        primary key (id)
+    )
+2024-07-02T10:33:07.667+09:00  INFO 6140 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-02T10:33:07.812+09:00  WARN 6140 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-02T10:33:07.907+09:00  INFO 6140 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5f7cc6fd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b35dde3, org.springframework.security.web.context.SecurityContextHolderFilter@6c524a7f, org.springframework.security.web.header.HeaderWriterFilter@66d0d5ee, org.springframework.web.filter.CorsFilter@276511ca, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@6a53cddc, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@54422189, home.springbootdeveloper.springbootdeveloper.config.TokenAuthenticationFilter@59dae020, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61b3de5b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12c1826, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62ee32c6, org.springframework.security.web.session.SessionManagementFilter@67aedd28, org.springframework.security.web.access.ExceptionTranslationFilter@1c023dcb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@cf0e8b4]
+2024-07-02T10:33:07.970+09:00  INFO 6140 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:9e597a06-871f-43b5-bc79-8ad03ff3008e'
+2024-07-02T10:33:07.986+09:00  WARN 6140 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore org.springframework.boot.autoconfigure.security.servlet.PathRequest$H2ConsoleRequestMatcher@6a7a8e1e. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-07-02T10:33:07.986+09:00  INFO 6140 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure org.springframework.boot.autoconfigure.security.servlet.PathRequest$H2ConsoleRequestMatcher@6a7a8e1e
+2024-07-02T10:33:07.986+09:00  WARN 6140 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/img/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-07-02T10:33:07.986+09:00  INFO 6140 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/img/**']
+2024-07-02T10:33:07.986+09:00  WARN 6140 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-07-02T10:33:07.986+09:00  INFO 6140 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/css/**']
+2024-07-02T10:33:07.986+09:00  WARN 6140 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-07-02T10:33:07.986+09:00  INFO 6140 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/js/**']
+2024-07-02T10:33:08.049+09:00  INFO 6140 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-02T10:33:08.049+09:00  INFO 6140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-02T10:33:08.049+09:00  INFO 6140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-07-02T10:33:08.064+09:00  INFO 6140 --- [    Test worker] h.s.controller.BlogApiControllerTest     : Started BlogApiControllerTest in 0.971 seconds (process running for 10.731)
+2024-07-02T10:33:08.081+09:00  INFO 6140 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-02T10:33:08.082+09:00  INFO 6140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-02T10:33:08.082+09:00  INFO 6140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+Hibernate: 
+    select
+        a1_0.id,
+        a1_0.author,
+        a1_0.content,
+        a1_0.created_at,
+        a1_0.title,
+        a1_0.updated_at 
+    from
+        article a1_0
+Hibernate: 
+    delete 
+    from
+        article 
+    where
+        id=?
+Hibernate: 
+    delete 
+    from
+        article 
+    where
+        id=?
+Hibernate: 
+    delete 
+    from
+        article 
+    where
+        id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.nickname,
+        u1_0.password 
+    from
+        users u1_0
+Hibernate: 
+    insert 
+    into
+        users
+        (email, nickname, password, id) 
+    values
+        (?, ?, ?, default)
+Hibernate: 
+    insert 
+    into
+        article
+        (author, content, created_at, title, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, default)
+Hibernate: 
+    select
+        a1_0.id,
+        a1_0.author,
+        a1_0.content,
+        a1_0.created_at,
+        a1_0.title,
+        a1_0.updated_at 
+    from
+        article a1_0 
+    where
+        a1_0.id=?
+Hibernate: 
+    delete 
+    from
+        article 
+    where
+        id=?
+Hibernate: 
+    select
+        a1_0.id,
+        a1_0.author,
+        a1_0.content,
+        a1_0.created_at,
+        a1_0.title,
+        a1_0.updated_at 
+    from
+        article a1_0
+2024-07-02T10:33:08.460+09:00  INFO 6140 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-02T10:33:08.460+09:00  INFO 6140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-02T10:33:08.460+09:00  INFO 6140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+Hibernate: 
+    select
+        a1_0.id,
+        a1_0.author,
+        a1_0.content,
+        a1_0.created_at,
+        a1_0.title,
+        a1_0.updated_at 
+    from
+        article a1_0
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.nickname,
+        u1_0.password 
+    from
+        users u1_0
+Hibernate: 
+    delete 
+    from
+        users 
+    where
+        id=?
+Hibernate: 
+    insert 
+    into
+        users
+        (email, nickname, password, id) 
+    values
+        (?, ?, ?, default)
+Hibernate: 
+    insert 
+    into
+        article
+        (author, content, created_at, title, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, default)
+Hibernate: 
+    select
+        a1_0.id,
+        a1_0.author,
+        a1_0.content,
+        a1_0.created_at,
+        a1_0.title,
+        a1_0.updated_at 
+    from
+        article a1_0 
+    where
+        a1_0.id=?
+2024-07-02T10:33:08.664+09:00  INFO 6140 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-02T10:33:08.664+09:00  INFO 6140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-02T10:33:08.664+09:00  INFO 6140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+Hibernate: 
+    select
+        a1_0.id,
+        a1_0.author,
+        a1_0.content,
+        a1_0.created_at,
+        a1_0.title,
+        a1_0.updated_at 
+    from
+        article a1_0
+Hibernate: 
+    delete 
+    from
+        article 
+    where
+        id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.nickname,
+        u1_0.password 
+    from
+        users u1_0
+Hibernate: 
+    delete 
+    from
+        users 
+    where
+        id=?
+Hibernate: 
+    insert 
+    into
+        users
+        (email, nickname, password, id) 
+    values
+        (?, ?, ?, default)
+Hibernate: 
+    insert 
+    into
+        article
+        (author, content, created_at, title, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, default)
+Hibernate: 
+    select
+        a1_0.id,
+        a1_0.author,
+        a1_0.content,
+        a1_0.created_at,
+        a1_0.title,
+        a1_0.updated_at 
+    from
+        article a1_0
+2024-07-02T10:33:08.712+09:00  INFO 6140 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-02T10:33:08.712+09:00  INFO 6140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-02T10:33:08.712+09:00  INFO 6140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+Hibernate: 
+    select
+        a1_0.id,
+        a1_0.author,
+        a1_0.content,
+        a1_0.created_at,
+        a1_0.title,
+        a1_0.updated_at 
+    from
+        article a1_0
+Hibernate: 
+    delete 
+    from
+        article 
+    where
+        id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.nickname,
+        u1_0.password 
+    from
+        users u1_0
+Hibernate: 
+    delete 
+    from
+        users 
+    where
+        id=?
+Hibernate: 
+    insert 
+    into
+        users
+        (email, nickname, password, id) 
+    values
+        (?, ?, ?, default)
+Hibernate: 
+    insert 
+    into
+        article
+        (author, content, created_at, title, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, default)
+Hibernate: 
+    select
+        a1_0.id,
+        a1_0.author,
+        a1_0.content,
+        a1_0.created_at,
+        a1_0.title,
+        a1_0.updated_at 
+    from
+        article a1_0
+2024-07-02T10:33:09.480+09:00  INFO 6140 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-02T10:33:09.496+09:00  INFO 6140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-02T10:33:09.496+09:00  INFO 6140 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+Hibernate: 
+    select
+        a1_0.id,
+        a1_0.author,
+        a1_0.content,
+        a1_0.created_at,
+        a1_0.title,
+        a1_0.updated_at 
+    from
+        article a1_0
+Hibernate: 
+    delete 
+    from
+        article 
+    where
+        id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.nickname,
+        u1_0.password 
+    from
+        users u1_0
+Hibernate: 
+    delete 
+    from
+        users 
+    where
+        id=?
+Hibernate: 
+    insert 
+    into
+        users
+        (email, nickname, password, id) 
+    values
+        (?, ?, ?, default)
+Hibernate: 
+    insert 
+    into
+        article
+        (author, content, created_at, title, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, default)
+Hibernate: 
+    select
+        a1_0.id,
+        a1_0.author,
+        a1_0.content,
+        a1_0.created_at,
+        a1_0.title,
+        a1_0.updated_at 
+    from
+        article a1_0 
+    where
+        a1_0.id=?
+Hibernate: 
+    update
+        article 
+    set
+        author=?,
+        content=?,
+        created_at=?,
+        title=?,
+        updated_at=? 
+    where
+        id=?
+Hibernate: 
+    select
+        a1_0.id,
+        a1_0.author,
+        a1_0.content,
+        a1_0.created_at,
+        a1_0.title,
+        a1_0.updated_at 
+    from
+        article a1_0 
+    where
+        a1_0.id=?
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at 2024. 7. 2. 오전 10:33:10</p>
+</div>
+</div>
+</body>
+</html>

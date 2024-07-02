@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="home.springbootdeveloper.config.jwt.TokenProviderTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-07-02T01:33:06" hostname="DESKTOP-K28F4P2" time="0.34">
+  <properties/>
+  <testcase name="validToken(): 유효한 토큰인 경우에 유효성 검증에 성공한다." classname="home.springbootdeveloper.config.jwt.TokenProviderTest" time="0.18"/>
+  <testcase name="validToken(): 만료된 토큰인 경우에 유효성 검증에 실패한다." classname="home.springbootdeveloper.config.jwt.TokenProviderTest" time="0.007"/>
+  <testcase name="getAuthentication(): 토큰 기반으로 인증정보를 가져올 수 있다." classname="home.springbootdeveloper.config.jwt.TokenProviderTest" time="0.014"/>
+  <testcase name="getUserId(): 토큰으로 유저 ID를 가져올 수 있다." classname="home.springbootdeveloper.config.jwt.TokenProviderTest" time="0.012"/>
+  <testcase name="generateToken(): 유저 정보와 만료 기간을 전달해 토큰을 만들 수 있다." classname="home.springbootdeveloper.config.jwt.TokenProviderTest" time="0.121"/>
+  <system-out><![CDATA[2024-07-02T10:33:06.612+09:00  INFO 6140 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [home.springbootdeveloper.config.jwt.TokenProviderTest]: TokenProviderTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-07-02T10:33:06.696+09:00  INFO 6140 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration home.springbootdeveloper.SpringbootdeveloperApplication for test class home.springbootdeveloper.config.jwt.TokenProviderTest
+Hibernate: 
+    insert 
+    into
+        users
+        (email, nickname, password, id) 
+    values
+        (?, ?, ?, default)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
