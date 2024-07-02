@@ -3,8 +3,7 @@
 <br/>
 
 ### 블로그 로그인 창
-![image](https://github.com/kyunga1126/springboot-developer/assets/159090684/d9d19c97-e345-4bf1-86b8-a588749c2130)
-
+![image](https://github.com/kyunga1126/springboot-developer/assets/159090684/58ef03fb-601d-4ebf-9a87-77f6c1cf76cc)
 
 <br/>
 
